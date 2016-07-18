@@ -130,10 +130,6 @@ public:
     {
       cv::rectangle(im_bgr, detected_pedestrian[i], cv::Scalar(255));
     }
-
-    // Update GUI Window
-    cv::imshow(OPENCV_WINDOW, im_bgr);
-    cv::waitKey(3);
   }
 };
 
